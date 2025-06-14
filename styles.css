@@ -44,3 +44,61 @@ h1 {
 .nav-table a:hover {
   text-decoration: underline;
 }
+
+.intro {
+  color: #007BFF; /* kék szöveg */
+  font-size: 18px;
+  text-align: center;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;    
+  padding: 20px;
+}
+
+.gallery img {
+  width: 250px;
+  height: auto;
+  border: 3px solid #007BFF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  transform: scaleX(2);
+}
+
+.audio-list {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.audio-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  background-color: #f8faff;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.audio-item h3 {
+  margin-bottom: 10px;
+  color: #0056b3;
+}
+
+.audio-item .length {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
